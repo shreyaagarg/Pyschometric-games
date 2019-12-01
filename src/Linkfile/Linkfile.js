@@ -9,6 +9,7 @@ class Linkfile extends Component {
 			<div class="container">
 				<nav>
 					<Link to="/">Home</Link>
+					<br />
 					<Link to="/memorygame">MemoryGame</Link>
 				</nav>
 				<Route
@@ -20,7 +21,7 @@ class Linkfile extends Component {
 				</Route>
 			</div>
 			</Router>
-		);
+		)
 	}
 }
 export default Linkfile;

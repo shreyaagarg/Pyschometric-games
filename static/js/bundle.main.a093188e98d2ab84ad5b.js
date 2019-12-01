@@ -39808,7 +39808,7 @@ function (_Component) {
         "class": "container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "/"
-      }, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      }, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: "/memorygame"
       }, "MemoryGame")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
         path: "/"
@@ -40171,4 +40171,4 @@ if (content.locals) {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=bundle.main.beeb5defe564bfd063a9.js.map
+//# sourceMappingURL=bundle.main.a093188e98d2ab84ad5b.js.map
