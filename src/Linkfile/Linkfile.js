@@ -1,26 +1,26 @@
 import React, { Component } from "react"
+import { Card } from 'semantic-ui-react'
 import {  BrowserRouter as Router, Link, Route } from 'react-router-dom';
-import Game from "../js/Game/Game";
 
 class Linkfile extends Component {
 	render() {
 		return (
-			<Router>
-			<div class="container">
-				<nav>
-					<Link to="/">Home</Link>
-					<br />
-					<Link to="/memorygame">MemoryGame</Link>
-				</nav>
-				<Route
-					path="/"
-				/>
-				<Route
-					path="/memorygame">
-					<Game/>
-				</Route>
+			<div>
+			<div style={{textAlign: 'center', justifyContent:'center'}}>
+				<h1><b> MAP-G </b> </h1>
 			</div>
-			</Router>
+				<div class="container">
+					<nav>
+						<Card.Group itemsPerRow={2}>
+							<Card>
+								<Card.Content>
+									<Link to="/memorygame">Card Matching</Link>
+								</Card.Content>
+							</Card>
+						</Card.Group>
+				</nav>
+			</div>
+			</div>
 		)
 	}
 }
